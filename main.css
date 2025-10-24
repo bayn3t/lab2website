@@ -1,0 +1,72 @@
+/* main.css */
+
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #222;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #0a3d62;
+  padding: 12px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700; /* hover color */
+}
+
+nav a.active {
+  color: #1dd1a1; /* active page color */
+}
+
+/* Sections */
+h1, h2, h3 {
+  color: #0a3d62;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 15px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+/* Footer */
+footer {
+  background-color: #0a3d62;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* Image */
+img {
+  border-radius: 10px;
+}
+
+
+/* Custom image hover effect */
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
